@@ -22,7 +22,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet"/>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Config -->
     <script>
@@ -32,8 +32,8 @@
                     colors: {
                         bgdark: '#0B1120',      // Ana Arka Plan
                         carddark: '#111827',    // Kart Arka Planı
-                        primary: '#10B981',     // Ana Vurgu Rengi (Yeşil)
-                        secondary: '#34D399',   // Açık Yeşil
+                        primary: '#64FFDA',     // Ana Vurgu Rengi (Yeni Yeşil - rgb(100, 255, 218))
+                        secondary: '#64FFDA',   // Açık Yeşil
                         youtube: '#EF4444',     // Kırmızı
                         
                         // Hover Renkleri
@@ -42,7 +42,7 @@
 
                         // Footer Özel Renkleri
                         footerBg: '#032229',    // Koyu Petrol Yeşili Zemin
-                        footerText: '#34D399',  // Mint Yeşili Başlık
+                        footerText: '#64FFDA',  // Mint Yeşili Başlık
                         
                         // Program Kart Renkleri
                         progBlue: '#3B82F6',
@@ -51,7 +51,7 @@
                     },
                     fontFamily: {
                         sans: ['Poppins', 'sans-serif'],
-                        serif: ['Playfair Display', 'serif'],
+                        serif: ['Instrument Serif', 'serif'],
                     }
                 }
             }
@@ -86,12 +86,12 @@
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #10B981;
+            background: #64FFDA;
         }
     </style>
 </head>
 
-<body class="font-sans antialiased selection:bg-primary selection:text-white">
+<body class="font-sans antialiased selection:bg-primary selection:text-[#0B1120]">
 
     <!-- Top Bar -->
     <div class="bg-[#0F172A] border-b border-gray-800 text-xs py-2 hidden md:block">
@@ -113,7 +113,7 @@
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <a href="#home" class="flex items-center gap-3 group">
                 <div class="relative w-10 h-10 flex items-center justify-center bg-gradient-to-br from-gray-800 to-black rounded-full border border-gray-700 group-hover:border-primary transition-all duration-300">
-                    <span class="font-serif font-bold text-xl text-primary">MK</span>
+                    <span class="font-serif text-xl text-primary font-normal">MK</span>
                 </div>
                 <span class="text-xl font-bold text-white tracking-tight group-hover:text-primary transition-colors">Mustafa Köker</span>
             </a>
@@ -125,7 +125,7 @@
                 <a href="#certificates" class="px-4 py-2 text-gray-300 rounded-lg transition-all duration-300 hover:bg-navHoverBg hover:text-navHoverText hover:shadow-md">Sertifikalar</a>
                 <a href="#hobbies" class="px-4 py-2 text-gray-300 rounded-lg transition-all duration-300 hover:bg-navHoverBg hover:text-navHoverText hover:shadow-md">Hobiler</a>
                 <a href="#projects" class="px-4 py-2 text-gray-300 rounded-lg transition-all duration-300 hover:bg-navHoverBg hover:text-navHoverText hover:shadow-md">Projelerim</a>
-                <a href="#contact" class="ml-2 px-5 py-2.5 bg-primary/10 text-primary border border-primary/50 rounded-lg hover:bg-primary hover:text-white transition-all">İletişim</a>
+                <a href="#contact" class="ml-2 px-5 py-2.5 bg-primary/10 text-primary border border-primary/50 rounded-lg hover:bg-primary hover:text-[#0B1120] transition-all">İletişim</a>
             </nav>
 
             <button id="mobileMenuBtn" class="md:hidden text-white text-2xl">
@@ -150,7 +150,7 @@
         <div class="container mx-auto px-4 py-20 relative z-10">
             <div class="max-w-3xl">
                 <span class="text-primary font-semibold tracking-wider uppercase mb-4 block text-sm animate-pulse">Hoş Geldiniz</span>
-                <h1 class="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
+                <h1 class="text-5xl md:text-7xl font-serif font-normal text-white mb-6 leading-tight">
                     Mustafa Köker
                 </h1>
                 <h2 class="text-2xl md:text-3xl text-gray-300 font-light mb-8">
@@ -161,7 +161,7 @@
                 </p>
                 
                 <div class="flex flex-wrap gap-4">
-                    <a href="#contact" class="bg-primary hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-lg shadow-lg shadow-primary/20 transition-all transform hover:-translate-y-1 flex items-center gap-2">
+                    <a href="#contact" class="bg-primary hover:bg-[#52e8c6] text-[#0B1120] font-semibold py-4 px-8 rounded-lg shadow-lg shadow-primary/20 transition-all transform hover:-translate-y-1 flex items-center gap-2">
                         İletişime Geçin <i class="ri-arrow-right-line"></i>
                     </a>
                     <a href="#projects" class="bg-white/5 hover:bg-white/10 border border-white/10 text-white font-semibold py-4 px-8 rounded-lg backdrop-blur-sm transition-all flex items-center gap-2">
@@ -179,7 +179,7 @@
                 <div class="lg:col-span-5 relative group">
                     <div class="absolute inset-0 bg-primary/20 rounded-2xl rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
                 <!-- Profil Resmim -->
-<a href="https://www.linkedin.com/in/kendiProfilLinkin" target="_blank">
+<a href="https://www.linkedin.com/in/mustafakoker53" target="_blank">
   <img src="https://media.licdn.com/dms/image/v2/D4D03AQGFYP5tOUwP0g/profile-displayphoto-scale_200_200/B4DZvdCCS2JsAY-/0/1768939858503?e=1770854400&v=beta&t=Pj0g2Z8VQlZaJQ6Aam4caNJzSgYMosq0pEDbIamEE0Y" 
        alt="Mustafa Köker" 
        class="relative rounded-2xl shadow-2xl border border-gray-700 w-full object-cover aspect-[3/4]">
@@ -187,7 +187,7 @@
 </div>
 
                 <div class="lg:col-span-7">
-                    <h2 class="text-4xl font-serif font-bold text-white mb-2">Mustafa Köker</h2>
+                    <h2 class="text-4xl font-serif font-normal text-white mb-2">Mustafa Köker</h2>
                     <p class="text-primary font-medium text-lg mb-8">Muhasebe Müdürü & Teknoloji Tutkunu</p>
 
                     <div class="space-y-4 mb-8">
@@ -233,7 +233,7 @@
     <section class="py-24 bg-[#0F1623]">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-serif font-bold text-primary">Kariyer Geçmişi</h2>
+                <h2 class="text-4xl font-serif font-normal text-primary">Kariyer Geçmişi</h2>
             </div>
 
             <div class="max-w-3xl mx-auto relative">
@@ -241,7 +241,7 @@
 
                 <!-- İş 1 -->
                 <div class="relative pl-24 mb-12 group">
-                    <div class="absolute left-0 top-0 w-16 h-16 bg-carddark border-2 border-primary rounded-full flex items-center justify-center text-primary z-10 shadow-[0_0_15px_rgba(16,185,129,0.3)]">
+                    <div class="absolute left-0 top-0 w-16 h-16 bg-carddark border-2 border-primary rounded-full flex items-center justify-center text-primary z-10 shadow-[0_0_15px_rgba(100,255,218,0.3)]">
                         <i class="ri-briefcase-4-fill text-2xl"></i>
                     </div>
                     <div class="bg-carddark p-6 rounded-xl border border-gray-800 hover:border-primary/50 transition-all shadow-lg">
@@ -254,7 +254,7 @@
                 <!-- İş 2 -->
                 <div class="relative pl-24 mb-12 group">
                     <div class="absolute left-4 top-6 w-8 h-0.5 bg-primary/30"></div>
-                    <div class="absolute left-3 top-2 w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white z-10">
+                    <div class="absolute left-3 top-2 w-10 h-10 bg-primary rounded-full flex items-center justify-center text-[#0B1120] font-bold z-10">
                         <i class="ri-briefcase-line"></i>
                     </div>
                     <div class="bg-carddark p-6 rounded-xl border border-gray-800 hover:border-primary/50 transition-all shadow-lg">
@@ -307,7 +307,7 @@
     <section id="certificates" class="py-24 bg-bgdark">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-serif font-bold text-primary">Sertifikalar</h2>
+                <h2 class="text-4xl font-serif font-normal text-primary">Sertifikalar</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -364,7 +364,7 @@
     <section id="hobbies" class="py-24 bg-[#0F1623]">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-serif font-bold text-primary">Hobilerim</h2>
+                <h2 class="text-4xl font-serif font-normal text-primary">Hobilerim</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -420,7 +420,7 @@
     <section id="projects" class="py-24 bg-bgdark">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-serif font-bold text-primary mb-4">Projelerim</h2>
+                <h2 class="text-4xl font-serif font-normal text-primary mb-4">Projelerim</h2>
                 <p class="text-gray-400">YouTube kanalımda paylaştığım yazılım projeleri ve eğitim videoları.</p>
             </div>
 
@@ -435,7 +435,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">C# ile Sipariş Takip Programı Tanıtımı</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">C# ile Sipariş Takip Programı Tanıtımı</h3>
                          <a href="https://www.youtube.com/watch?v=5UsPK-GSdWk&t=45s" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -451,7 +451,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">Excel VBA ile İl İlçe ComboBox Bağlantısı</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">Excel VBA ile İl İlçe ComboBox Bağlantısı</h3>
                          <a href="https://www.youtube.com/watch?v=5MKNGjcZUog" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -467,7 +467,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">Excel VBA Takvim Uygulaması | Calendar App</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">Excel VBA Takvim Uygulaması | Calendar App</h3>
                          <a href="https://www.youtube.com/watch?v=TF8a9OcWSAg&t=32s" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -483,7 +483,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">Toplu Dosya Yeniden Adlandırma – Excel VBA</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">Toplu Dosya Yeniden Adlandırma – Excel VBA</h3>
                          <a href="https://www.youtube.com/watch?v=7Hjnz1M5JGg" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -499,7 +499,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">Excel VBA ile Outlook Üzerinden E-Posta Gönderme</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">Excel VBA ile Outlook Üzerinden E-Posta Gönderme</h3>
                          <a href="https://www.youtube.com/watch?v=JZGlaBExcsI&t=22s" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -515,7 +515,7 @@
                         </div>
                     </div>
                     <div class="p-6">
-                         <h3 class="text-lg font-bold text-[#34D399] mb-4 min-h-[56px] line-clamp-2">Personel Yıllık Mesai ve Aylık Puantaj Takibi</h3>
+                         <h3 class="text-lg font-bold text-primary mb-4 min-h-[56px] line-clamp-2">Personel Yıllık Mesai ve Aylık Puantaj Takibi</h3>
                          <a href="https://www.youtube.com/watch?v=hMR48g4268Y" target="_blank" class="block w-full bg-youtube hover:bg-red-700 text-white text-center py-3 rounded-lg font-bold transition-colors">
                             <i class="ri-play-circle-line align-middle mr-1"></i> YouTube'da İzle
                          </a>
@@ -532,19 +532,18 @@
         </div>
     </section>
 
-    <!-- Programlarım (GÜNCELLENEN BÖLÜM) -->
+    <!-- Programlarım -->
     <section id="programs" class="py-24 bg-[#0F1623]">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-serif font-bold text-primary mb-2">Programlarım</h2>
+                <h2 class="text-4xl font-serif font-normal text-primary mb-2">Programlarım</h2>
                 <span class="text-gray-400">(Şu An Test Aşamasında)</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <!-- Program 1 (Mavi) - GÜNCELLENDİ -->
+                <!-- Program 1 (Mavi) -->
                 <div class="bg-carddark rounded-xl overflow-hidden border border-gray-800 shadow-lg flex flex-col h-full">
-                    <!-- Image/Header area -->
                     <div class="relative h-48 overflow-hidden group">
                          <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-60 transition-transform duration-500 group-hover:scale-110">
                          <div class="absolute inset-0 bg-gradient-to-t from-carddark to-transparent opacity-90"></div>
@@ -559,7 +558,6 @@
                         <h3 class="text-xl font-bold text-primary mb-1">Excel Data Picker v.1</h3>
                         <p class="text-xs text-blue-400 mb-4 font-medium">UserForm Takvim Uygulaması</p>
                         
-                        <!-- Description Container -->
                         <div class="relative mb-6 flex-1">
                             <div id="prog1-short" class="text-gray-400 text-sm leading-relaxed">
                                 <p class="mb-2"><strong class="text-white"> TEMEL ÖZELLİKLER</strong></p>
@@ -661,7 +659,7 @@
     <section id="contact" class="py-24 bg-bgdark">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-carddark rounded-2xl border border-gray-800 p-8 md:p-12 shadow-2xl">
-                <h2 class="text-3xl font-serif font-bold text-primary text-center mb-12">Benimle İletişime Geçin</h2>
+                <h2 class="text-3xl font-serif font-normal text-primary text-center mb-12">Benimle İletişime Geçin</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                     <a href="https://wa.me/905352524761" class="flex items-center p-4 bg-[#0F1623] rounded-xl border border-gray-800 hover:border-primary transition-colors group">
@@ -708,27 +706,21 @@
                 <div class="text-center">
                     <h4 class="text-primary font-bold mb-4">Sosyal Medya</h4>
                     <div class="flex flex-wrap justify-center gap-4">
-                        <!-- Facebook -->
                         <a href="https://www.facebook.com/mustafakoker53" target="_blank" class="w-10 h-10 rounded-full bg-[#1877F2] text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-facebook-fill"></i>
                         </a>
-                        <!-- Instagram -->
                         <a href="https://www.instagram.com/mustafakoker53/" target="_blank" class="w-10 h-10 rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-instagram-line"></i>
                         </a>
-                        <!-- LinkedIn -->
                         <a href="https://www.linkedin.com/in/mustafakoker53/" target="_blank" class="w-10 h-10 rounded-full bg-[#0A66C2] text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-linkedin-fill"></i>
                         </a>
-                        <!-- Telegram -->
                         <a href="https://t.me/Mustafakoker" target="_blank" class="w-10 h-10 rounded-full bg-[#0088cc] text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-telegram-fill"></i>
                         </a>
-                         <!-- Twitter (X) -->
                          <a href="https://twitter.com/mustafakoker53" target="_blank" class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-twitter-x-fill"></i>
                         </a>
-                        <!-- YouTube -->
                         <a href="https://www.youtube.com/@mustafakoker53" target="_blank" class="w-10 h-10 rounded-full bg-[#FF0000] text-white flex items-center justify-center hover:scale-110 transition-transform">
                             <i class="ri-youtube-fill"></i>
                         </a>
@@ -738,23 +730,16 @@
         </div>
     </section>
 
-    <!-- Footer (Görselle Eşleşen Renkler) -->
+    <!-- Footer -->
     <footer class="bg-footerBg border-t border-gray-800 py-12 text-center" style="background-color: #032229;">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-serif font-bold text-footerText mb-2" style="color: #34D399;">Mustafa Köker</h2>
+            <h2 class="text-3xl font-serif font-normal text-footerText mb-2" style="color: #64FFDA;">Mustafa Köker</h2>
             <p class="text-gray-300 mb-8">Muhasebe Müdürü | ERP Uzmanı | Yazılım Geliştirici</p>
-
- <!-- cv indirme şu an pasif  -->
- <!-- 
-<a href="https://drive.google.com/file/d/1kY2PVVryFbPscNNP0GNccFCQKBduxgWV/view?usp=sharing" target="_blank" class="inline-flex items-center gap-2 bg-[#D32F2F] hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-lg mb-12">
-    <i class="ri-file-pdf-line text-xl"></i> CV İndir
-</a>
--->
 
             <div class="w-full h-px bg-[#1F4B52] mx-auto mb-8"></div>
             
             <p class="text-gray-400 text-sm">
-                © 2025 Mustafa Köker | Tüm Hakları Saklıdır.
+                © 2026 Mustafa Köker | Tüm Hakları Saklıdır.
             </p>
         </div>
     </footer>
